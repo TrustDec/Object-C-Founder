@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         /*字符串 =@"" +内容*/
-        NSLog(@"SmallRui====");
+        /*NSLog(@"SmallRui====");
         //        1.数据类型:
         int a = 1;
         float b = 2.5;
@@ -36,6 +36,25 @@ int main(int argc, const char * argv[]) {
         //        id 表示任意oc对象
         id mString = @"my id = SmallRui";
         NSLog(@"mString=%@",mString);
+        
+        // 限定词: 大数据 特定的数据类型上
+//        黄色 警告 红色 错误信息
+        int a  = 123456789012345;
+        long int b = 123456789012345;
+        NSLog(@"a= %d b = %ld",a,b);
+        
+       unsigned c = 1;
+        unsigned d = -1;
+        NSLog(@"%d %d",c,d);
+        NSLog(@"%u %u",c,d);
+         
+//        3.数据类型的转换
+        float a= 1.5;
+        int b = (int)a;
+        NSLog(@"a=%f b=%d",a,b);
+        int c = 2;
+        float d = (float)c;
+        NSLog(@"c=%d d=%f",c,d);*/
     }
     return 0;
 }
